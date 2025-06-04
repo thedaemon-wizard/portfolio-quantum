@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adaptive Quantum Genetic Algorithm (AQGA) Project | Amon Koike</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Adaptive Quantum Genetic Algorithm (AQGA)</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="aqga.html">AQGA Optimize Project</a>
+      <a href="qpinn.html">QPINN Project</a>
+    </nav>
+  </header>
+
+  <section class="project-details">
+    <h2>About this Project</h2>
+    <p>
+      This project implements an improved Adaptive Quantum Genetic Algorithm (AQGA) utilizing Qiskit's quantum computing framework. The AQGA algorithm enhances classical Real-Coded Genetic Algorithms (RCGA) by integrating quantum-inspired adaptive mechanisms to optimize complex benchmark functions effectively. The algorithm was benchmarked against several known optimization problems, demonstrating significant performance improvements in terms of convergence speed and optimization accuracy.
+    </p>
+
+    <h2>Technologies Used</h2>
+    <ul>
+      <li>Qiskit v2.0.4 (Quantum computing framework)</li>
+      <li>Python 3.12+</li>
+      <li>NumPy for numerical computations</li>
+      <li>Matplotlib for data visualization</li>
+      <li>AerSimulator backend (Quantum circuit simulation)</li>
+    </ul>
+
+    <h2>Results and Visualizations</h2>
+    <p>The following convergence plots illustrate the optimization performance of AQGA compared with the classical RCGA:</p>
+    <img src="assets/convergence_rastrigin_20250604_145226.png" alt="Convergence on Rastrigin Function" width="100%">
+    <img src="assets/convergence_rosenbrock_20250604_144925.png" alt="Convergence on Rosenbrock Function" width="100%">
+    <img src="assets/convergence_griewank_20250604_145826.png" alt="Convergence on Griewank Function" width="100%">
+    <img src="assets/convergence_sphere_20250604_144619.png" alt="Convergence on Sphere Function" width="100%">
+    <img src="assets/convergence_ackley_20250604_145514.png" alt="Convergence on Ackley Function" width="100%">
+    <img src="assets/convergence_schwefel_20250604_150134.png" alt="Convergence on Schwefel Function" width="100%">
+    <p>Additionally, a summary benchmark highlights overall improvements across different test functions:</p>
+    <img src="assets/benchmark_summary_20250604_144327.png" alt="Benchmark Summary" width="100%">
+
+    <h2>GitHub Repository</h2>
+    <p>
+      Full implementation details, source code, and explanatory notebooks are available in the GitHub repository:
+    </p>
+    <a href="https://github.com/thedaemon-wizard/aqga-rcga" target="_blank">View on GitHub</a>
+
+  </section>
+
+  <footer>
+    <p>© 2025 Amon Koike. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
